@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@vercel/node": "^5.0.0",
     "babel": "^6.23.0",
     "cli": "^1.0.1",
     "cors": "^2.8.5",
