@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --inspect index.js"
+    "start": "node index.js",
+    "dev": "nodemon --inspect index.js",
+    "build": "npm install && npm install mysql2"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +21,7 @@
     "fs": "^0.0.1-security",
     "morgan": "^1.10.0",
     "mssql": "^11.0.1",
+    "mysql2": "^3.12.0",
     "ngrok": "^5.0.0-beta.2",
     "nodemon": "^3.1.9",
     "sequelize": "^6.37.5",
